@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>stunning landing page</title>
+    <link rel="stylesheet" href="./stunning.css">
+</head>
+<body>
+    <header>
+        <div class="img">
+            <img src="./stunning-logo.png" alt="logo" height="60px" width="70px">
+        </div>
+        <nav>
+        <ul>
+           <span><a>Home</a></span>
+           <span><a>About</a></span>
+           <span><a>blog</a></span>
+           <span><a>Jobs</a></span>
+        </ul>
+        </nav>
+        <div class="button">
+            Your Account
+        </div>
+    </header>
+    <main>
+        <div class="left">
+          <h1>Stunning Workplace</h1>
+          <p style="font-size: 16px;" >With stunning, remote teams can organize projects, manage shifting priorities, and get wotk done.</p>
+        
+          <div class="new">
+              <button id="account">New Account</button>
+              <img src="./arrow-up.png" alt="up" height="40" width="40">
+              <img src="./arrow-down.png" alt="down" height="40" width="40">
+          </div>
+            <div class="container">
+                <div class="card">
+                    <div class="tick">
+                        
+                            <img src="./tick-gray.png" alt="grey" class="grey">
+                            <img src="./tick-blue.png" alt="blue" class="blue" id="space">
+                        
+                        <p>Dmm design</p>
+                        <img src="./user-pink.png" alt="pink" class="red">
+                        <p id="color">20 Dec</p>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="content">
+                    <div class="tick">
+                        
+                            <img src="./tick-gray.png" alt="grey" class="grey">
+                            <img src="./tick-blue.png" alt="blue" class="blue">
+                        
+                        <p>Blurr animation</p>
+                        <img src="./user-orange.png" alt="orange" class="red">
+                        <p id="color">22 Dec</p>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="box">
+                    <div class="tick">
+                        
+                            <img src="./tick-gray.png" alt="grey" class="grey">
+                            <img src="./tick-blue.png" alt="blue" class="blue">
+                        
+                        <p>Illustration</p>
+                        <img src="./user-blue.png" alt="blue" class="red">
+                        <p id="color">26 Dec</p>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="illustration">
+                    <div class="tick">
+                        
+                            <img src="./tick-gray.png" alt="grey" class="grey">
+                            <img src="./tick-blue.png" alt="blue" class="blue">
+                        
+                        <p>Refunds</p>
+                        <img src="./user-red.png" alt="red" class="red">
+                        <p id="color">28 Dec</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    
+        <div class="right">
+            <img src="./landing-section-image.png" alt="landing" width="500" height="500">
+        </div>
+        
+    </main>
+</body>
+</html>
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    height: 100px;
+    align-items: center;
+    flex-direction: row;
+    background-color: #8071D0;
+}
+ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 10px;
+}
+span a{
+    padding: 15px;
+}
+span:hover{
+    border-bottom: 2px solid blue;
+}
+.button{
+    background-color: #FFD8DB;
+    font-size: 20px;
+    padding: 10px;
+    color: #A389CC;
+    
+}
+main{
+    display: flex;
+    align-items: flex-start;
+    
+}
+.right{
+    max-width: 1500px;
+    height: auto;
+    padding: 1em;
+    
+}
+.left{
+    align-items: flex-start;
+    padding: 70px;   
+}
+h1{
+    font-size: 50px;
+    line-height: 1.2em;
+    padding: 25px;
+}
+.new{
+    justify-content: space-around;
+    display: flex;
+}
+#account{
+    background-color: #5243C0;
+    border: 2px solid#5243C0;
+    align-items: flex-start;
+    padding: 10px;
+    color: #ffffff;
+    
+}
+p{
+    line-height: 1.5em;
+    margin-bottom: 30px;
+}
+button{
+    line-height: 2em;
+    margin-bottom: 50px;
+}
+.red{
+    align-items: center;
+}
+
+.tick{
+    display: flex;
+    padding: 8px;
+    align-items: flex-start;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 50px;
+}
+.card{
+    background-color: #FED7DA;
+}
+.content{
+    background-color: #FD6534;
+}
+.box{
+    background-color: #9ED095;
+}
+.illustration{
+    background-color: #FFE4A0;
+}
+.card:hover .blue{
+    display: inline;
+}
+.blue{
+    display: none;
+}
+.content:hover .blue{
+    display: inline;
+}
+.box:hover .blue{
+    display: inline;
+}
+.illustration:hover .blue{
+    display: inline;
+}
+.card:hover .grey{
+    display: none;
+}
+.content:hover .grey{
+    display: none;
+}
+.box:hover .grey{
+    display: none;
+}
+.illustration:hover .grey{
+    display: none;
+}
+.card:hover{
+    background-color: white;
+}
+.content:hover{
+    background-color: white;
+}
+.box:hover{
+    background-color: white;
+}
+.illustration:hover{
+    background-color: white;
+}
+#color{
+    color: grey;
+}
+.container{
+   justify-content: space-around;
+}
+

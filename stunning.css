@@ -1,0 +1,143 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    height: 100px;
+    align-items: center;
+    flex-direction: row;
+    background-color: #8071D0;
+}
+ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 10px;
+}
+span a{
+    padding: 15px;
+}
+span:hover{
+    border-bottom: 2px solid blue;
+}
+.button{
+    background-color: #FFD8DB;
+    font-size: 20px;
+    padding: 10px;
+    color: #A389CC;
+    
+}
+main{
+    display: flex;
+    align-items: flex-start;
+    
+}
+.right{
+    max-width: 1500px;
+    height: auto;
+    padding: 1em;
+    
+}
+.left{
+    align-items: flex-start;
+    padding: 70px;   
+}
+h1{
+    font-size: 50px;
+    line-height: 1.2em;
+    padding: 25px;
+}
+.new{
+    justify-content: space-around;
+    display: flex;
+}
+#account{
+    background-color: #5243C0;
+    border: 2px solid#5243C0;
+    align-items: flex-start;
+    padding: 10px;
+    color: #ffffff;
+    
+}
+p{
+    line-height: 1.5em;
+    margin-bottom: 30px;
+}
+button{
+    line-height: 2em;
+    margin-bottom: 50px;
+}
+.red{
+    align-items: center;
+}
+
+.tick{
+    display: flex;
+    padding: 8px;
+    align-items: flex-start;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 50px;
+}
+.card{
+    background-color: #FED7DA;
+}
+.content{
+    background-color: #FD6534;
+}
+.box{
+    background-color: #9ED095;
+}
+.illustration{
+    background-color: #FFE4A0;
+}
+.card:hover .blue{
+    display: inline;
+}
+.blue{
+    display: none;
+}
+.content:hover .blue{
+    display: inline;
+}
+.box:hover .blue{
+    display: inline;
+}
+.illustration:hover .blue{
+    display: inline;
+}
+.card:hover .grey{
+    display: none;
+}
+.content:hover .grey{
+    display: none;
+}
+.box:hover .grey{
+    display: none;
+}
+.illustration:hover .grey{
+    display: none;
+}
+.card:hover{
+    background-color: white;
+}
+.content:hover{
+    background-color: white;
+}
+.box:hover{
+    background-color: white;
+}
+.illustration:hover{
+    background-color: white;
+}
+#color{
+    color: grey;
+}
+.container{
+   justify-content: space-around;
+}
+
